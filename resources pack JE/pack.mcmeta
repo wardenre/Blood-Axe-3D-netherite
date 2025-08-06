@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "pack_format": 16,
+        "supported_formats": [
+            {
+                "min_inclusive": 4,
+                "max_inclusive": 100
+            }
+        ],
+        "description": "by: DinozaVrik620 & Wardenre"
+    }
+}
