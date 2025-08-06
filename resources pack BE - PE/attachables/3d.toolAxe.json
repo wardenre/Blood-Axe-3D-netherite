@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "animations": {
+        "first_person": "animation.3d.hold_first_person"
+      },
+      "geometry": {
+        "default": "geometry.tools.3d_axe"
+      },
+      "identifier": "minecraft:netherite_axe",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "render_controllers": ["controller.render.weapons"],
+      "scripts": {
+        "animate": [
+          {
+            "first_person": "c.is_first_person"
+          }
+        ]
+      },
+      "textures": {
+        "default": "textures/entity/3dTools/netherite_axe",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      }
+    }
+  }
+}

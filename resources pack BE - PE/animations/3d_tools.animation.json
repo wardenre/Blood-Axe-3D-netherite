@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.3d.hold_first_person": {
+			"loop": true,
+			"bones": {
+				"weapon": {
+					"rotation": [-69.9527, -10.71028, -24.50716],
+					"position": [-5.25, 0, 11]
+				}
+			}
+		}
+	}
+}
